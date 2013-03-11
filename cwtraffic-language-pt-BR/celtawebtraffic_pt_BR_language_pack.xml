@@ -1,0 +1,37 @@
+ <?xml version="1.0" encoding="utf-8"?>
+  <extension version="2.5" type="file" method="upgrade">
+      <name>FILES_CELTAWEBTRAFFIC_PT_BR_LANGUAGE_PACK</name>
+      <version>0.0.7</version>
+      <creationDate>October 2012</creationDate>
+      <author>Steven Palmer</author>
+      <authorEmail>support@coalaweb.com</authorEmail>
+      <authorUrl>coalaweb.com</authorUrl>
+      <copyright>Copyright (C) 2012. All rights reserved.</copyright>
+      <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+      <description>FILES_CELTAWEBTRAFFIC_PT_BR_LANGUAGE_PACK</description>
+      <fileset>
+          <!-- Admin component language folder -->
+          <files folder="com_celtawebtraffic/admin" target="administrator/components/com_celtawebtraffic/language/en-GB">
+              <filename>index.html</filename>
+              <filename>en-GB.com_celtawebtraffic.ini</filename>
+              <filename>en-GB.com_celtawebtraffic.sys.ini</filename>
+          </files>
+          <!-- Module language files -->
+          <files folder="plg_ganymede" target="plugins/content/ganymede/language/zz-ZZ">
+              <filename>index.html</filename>
+              <filename>zz-ZZ.plg_content_ganymede.ini</filename>
+              <filename>zz-ZZ.plg_content_ganymede.sys.ini</filename>
+          </files>
+          <!-- Lang pack languages -->
+          <files folder="language/en-GB" target="language/en-GB">
+              <filename>index.html</filename>
+              <filename>en-GB.files_jupiter_zz_zz_language_pack.sys.ini</filename>
+          </files>
+          <files folder="language/zz-ZZ" target="language/zz-ZZ">
+              <filename>zz-ZZ.files_jupiter_zz_zz_language_pack.sys.ini</filename>
+          </files>
+      </fileset>
+    <updateservers>
+        <server type="collection" priority="1" name="zz-ZZ Language Updates">http://update.zzZZ.com/translationlist.xml</server>
+    </updateservers>
+  </extension>
