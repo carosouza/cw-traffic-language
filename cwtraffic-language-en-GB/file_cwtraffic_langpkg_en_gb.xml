@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="file" version="2.5.0" method="upgrade">
+      <name>FILE_CWTRAFFIC_LANGPKG_EN_GB</name>
+      <version>0.1.4</version>
+      <creationDate>March 2013</creationDate>
+      <author>Steven Palmer</author>
+      <authorEmail>support@coalaweb.com</authorEmail>
+      <authorUrl>coalaweb.com</authorUrl>
+      <copyright>Copyright (c) 2013 Steven Palmer All rights reserved.</copyright>
+      <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+      <description>FILE_CWTRAFFIC_LANGPKG_EN_GB_DESC</description>
+      <fileset>
+          <!-- Admin component language folder -->
+          <files folder="admin/language/en-GB" target="administrator/language/en-GB">
+              <filename>en-GB.com_celtawebtraffic.ini</filename>
+              <filename>en-GB.com_celtawebtraffic.sys.ini</filename>
+          </files>
+          <!-- Module language files -->
+          <files folder="modules/en-GB" target="language/en-GB">
+              <filename>en-GB.mod_celtawebtraffic.ini</filename>
+              <filename>en-GB/en-GB.mod_celtawebtraffic.sys.ini</filename>
+          </files>
+          <!-- Count Plugin language files -->
+          <files folder="plugins/system/en-GB" target="administrator/language/en-GB">
+              <filename>en-GB.plg_system_cwtrafficcount.ini</filename>
+              <filename>en-GB.plg_system_cwtrafficcount.sys.ini</filename>
+              <filename>en-GB.plg_system_cwtrafficclean.ini</filename>
+              <filename>en-GB.plg_system_cwtrafficclean.sys.ini</filename>
+          </files>
+          <!-- Language pack language files -->
+          <files folder="language/en-GB" target="language/en-GB">
+              <filename>en-GB.files_cwtraffic_langpack.sys.ini</filename>
+          </files>
+      </fileset>
+  </extension>
