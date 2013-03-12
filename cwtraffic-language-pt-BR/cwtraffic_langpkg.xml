@@ -11,7 +11,7 @@
       <description>FILES_CWTRAFFIC_LANGPKG_DESC</description>
       <fileset>
           <!-- Admin component language folder -->
-          <files folder="admin/language/pt-BR" target="administrator/language/pt-BR">
+          <files folder="admin/pt-BR" target="administrator/language/pt-BR">
               <filename>pt-BR.com_celtawebtraffic.ini</filename>
               <filename>pt-BR.com_celtawebtraffic.sys.ini</filename>
           </files>
