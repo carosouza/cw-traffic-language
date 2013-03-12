@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="file" version="2.5.0" method="upgrade">
+      <name>FILES_CWTRAFFIC_LANGPKG</name>
+      <version>0.1.4</version>
+      <creationDate>March 2013</creationDate>
+      <author>Steven Palmer</author>
+      <authorEmail>support@coalaweb.com</authorEmail>
+      <authorUrl>coalaweb.com</authorUrl>
+      <copyright>Copyright (c) 2013 Steven Palmer All rights reserved.</copyright>
+      <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+      <description>FILES_CWTRAFFIC_LANGPKG_DESC</description>
+      <fileset>
+          <!-- Admin component language folder -->
+          <files folder="admin/language/pt-BR" target="administrator/language/pt-BR">
+              <filename>pt-BR.com_celtawebtraffic.ini</filename>
+              <filename>pt-BR.com_celtawebtraffic.sys.ini</filename>
+          </files>
+          <!-- Module language files -->
+          <files folder="modules/pt-BR" target="language/pt-BR">
+              <filename>pt-BR.mod_celtawebtraffic.ini</filename>
+              <filename>pt-BR.mod_celtawebtraffic.sys.ini</filename>
+          </files>
+          <!-- Count Plugin language files -->
+          <files folder="plugins/system/pt-BR" target="administrator/language/pt-BR">
+              <filename>pt-BR.plg_system_cwtrafficcount.ini</filename>
+              <filename>pt-BR.plg_system_cwtrafficcount.sys.ini</filename>
+              <filename>pt-BR.plg_system_cwtrafficclean.ini</filename>
+              <filename>pt-BR.plg_system_cwtrafficclean.sys.ini</filename>
+          </files>
+          <!-- Language pack language files -->
+          <files folder="language/pt-BR" target="language/pt-BR">
+              <filename>pt-BR.files_cwtraffic_langpkg.sys.ini</filename>
+          </files>
+      </fileset>
+  </extension>
