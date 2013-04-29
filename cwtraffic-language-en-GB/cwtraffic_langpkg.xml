@@ -12,13 +12,13 @@
       <fileset>
           <!-- Admin component language folder -->
           <files folder="admin/en-GB" target="administrator/language/en-GB">
-              <filename>en-GB.com_celtawebtraffic.ini</filename>
-              <filename>en-GB.com_celtawebtraffic.sys.ini</filename>
+              <filename>en-GB.com_coalawebtraffic.ini</filename>
+              <filename>en-GB.com_coalawebtraffic.sys.ini</filename>
           </files>
           <!-- Module language files -->
           <files folder="modules/en-GB" target="language/en-GB">
-              <filename>en-GB.mod_celtawebtraffic.ini</filename>
-              <filename>en-GB.mod_celtawebtraffic.sys.ini</filename>
+              <filename>en-GB.mod_coalawebtraffic.ini</filename>
+              <filename>en-GB.mod_coalawebtraffic.sys.ini</filename>
           </files>
           <!-- Count Plugin language files -->
           <files folder="plugins/system/en-GB" target="administrator/language/en-GB">
