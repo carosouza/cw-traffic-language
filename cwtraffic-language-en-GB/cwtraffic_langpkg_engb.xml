@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="file" version="2.5.0" method="upgrade">
-      <name>FILES_CWTRAFFIC_LANGPKG</name>
+      <name>FILES_CWTRAFFIC_LANGPKG_ENGB</name>
       <version>0.1.5</version>
       <creationDate>April 2013</creationDate>
       <author>Steven Palmer</author>
@@ -8,7 +8,7 @@
       <authorUrl>coalaweb.com</authorUrl>
       <copyright>Copyright (c) 2013 Steven Palmer All rights reserved.</copyright>
       <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
-      <description>FILES_CWTRAFFIC_LANGPKG_DESC</description>
+      <description>FILES_CWTRAFFIC_LANGPKG_ENGB_DESC</description>
       <fileset>
           <!-- Admin component language folder -->
           <files folder="admin/en-GB" target="administrator/language/en-GB">
@@ -29,7 +29,7 @@
           </files>
           <!-- Language pack language files -->
           <files folder="language/en-GB" target="language/en-GB">
-              <filename>en-GB.files_cwtraffic_langpkg.sys.ini</filename>
+              <filename>en-GB.files_cwtraffic_langpkg_engb.sys.ini</filename>
           </files>
       </fileset>
   </extension>

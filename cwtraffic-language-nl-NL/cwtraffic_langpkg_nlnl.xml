@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="file" version="2.5.0" method="upgrade">
-      <name>FILES_CWTRAFFIC_LANGPKG</name>
+      <name>FILES_CWTRAFFIC_LANGPKG_NLNL</name>
       <version>0.1.5</version>
       <creationDate>April 2013</creationDate>
       <author>Steven Palmer</author>
@@ -8,17 +8,17 @@
       <authorUrl>coalaweb.com</authorUrl>
       <copyright>Copyright (c) 2013 Steven Palmer All rights reserved.</copyright>
       <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
-      <description>FILES_CWTRAFFIC_LANGPKG_DESC</description>
+      <description>FILES_CWTRAFFIC_LANGPKG_NLNL_DESC</description>
       <fileset>
           <!-- Admin component language folder -->
           <files folder="admin/nl-NL" target="administrator/language/nl-NL">
-              <filename>nl-NL.com_celtawebtraffic.ini</filename>
-              <filename>nl-NL.com_celtawebtraffic.sys.ini</filename>
+              <filename>nl-NL.com_coalawebtraffic.ini</filename>
+              <filename>nl-NL.com_coalawebtraffic.sys.ini</filename>
           </files>
           <!-- Module language files -->
           <files folder="modules/nl-NL" target="language/nl-NL">
-              <filename>nl-NL.mod_celtawebtraffic.ini</filename>
-              <filename>nl-NL.mod_celtawebtraffic.sys.ini</filename>
+              <filename>nl-NL.mod_coalawebtraffic.ini</filename>
+              <filename>nl-NL.mod_coalawebtraffic.sys.ini</filename>
           </files>
           <!-- Count Plugin language files -->
           <files folder="plugins/system/nl-NL" target="administrator/language/nl-NL">
@@ -29,7 +29,7 @@
           </files>
           <!-- Language pack language files -->
           <files folder="language/nl-NL" target="language/nl-NL">
-              <filename>nl-NL.files_cwtraffic_langpkg.sys.ini</filename>
+              <filename>nl-NL.files_cwtraffic_langpkg_nlnl.sys.ini</filename>
           </files>
       </fileset>
   </extension>
