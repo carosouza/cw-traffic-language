@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="file" version="2.5.0" method="upgrade">
-      <name>FILES_CWTRAFFIC_LANGPKG_NLNL</name>
+      <name>CoalaWeb Traffic nl-NL</name>
       <version>0.1.5</version>
       <creationDate>April 2013</creationDate>
       <author>Steven Palmer</author>
@@ -8,7 +8,12 @@
       <authorUrl>coalaweb.com</authorUrl>
       <copyright>Copyright (c) 2013 Steven Palmer All rights reserved.</copyright>
       <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
-      <description>FILES_CWTRAFFIC_LANGPKG_NLNL_DESC</description>
+    <description>
+        <![CDATA[
+            <h1>CoalaWeb Traffic nl-NL</h1>
+            <p>Dit is het nl-NL taalpakket voor de CoalaWeb Traffic extensie en bevat de taalbestanden voor alle van de bijbehorende onderdelen van het systeem.</p>
+        ]]>
+    </description>
       <fileset>
           <!-- Admin component language folder -->
           <files folder="admin/nl-NL" target="administrator/language/nl-NL">

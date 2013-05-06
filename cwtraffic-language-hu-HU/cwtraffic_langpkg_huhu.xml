@@ -1,35 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="file" version="2.5.0" method="upgrade">
-      <name>FILES_CWTRAFFIC_LANGPKG_HUHU</name>
-      <version>0.1.5</version>
-      <creationDate>April 2013</creationDate>
-      <author>Steven Palmer</author>
-      <authorEmail>support@coalaweb.com</authorEmail>
-      <authorUrl>coalaweb.com</authorUrl>
-      <copyright>Copyright (c) 2013 Steven Palmer All rights reserved.</copyright>
-      <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
-      <description>FILES_CWTRAFFIC_LANGPKG_HUHU_DESC</description>
-      <fileset>
-          <!-- Admin component language folder -->
-          <files folder="admin/hu-HU" target="administrator/language/hu-HU">
-              <filename>hu-HU.com_coalawebtraffic.ini</filename>
-              <filename>hu-HU.com_coalawebtraffic.sys.ini</filename>
-          </files>
-          <!-- Module language files -->
-          <files folder="modules/hu-HU" target="language/hu-HU">
-              <filename>hu-HU.mod_coalawebtraffic.ini</filename>
-              <filename>hu-HU.mod_coalawebtraffic.sys.ini</filename>
-          </files>
-          <!-- Count Plugin language files -->
-          <files folder="plugins/system/hu-HU" target="administrator/language/hu-HU">
-              <filename>hu-HU.plg_system_cwtrafficcount.ini</filename>
-              <filename>hu-HU.plg_system_cwtrafficcount.sys.ini</filename>
-              <filename>hu-HU.plg_system_cwtrafficclean.ini</filename>
-              <filename>hu-HU.plg_system_cwtrafficclean.sys.ini</filename>
-          </files>
-          <!-- Language pack language files -->
-          <files folder="language/hu-HU" target="language/hu-HU">
-              <filename>hu-HU.files_cwtraffic_langpkg_huhu.sys.ini</filename>
-          </files>
-      </fileset>
-  </extension>
+    <name>CoalaWeb Traffic hu-HU</name>
+    <version>0.1.5</version>
+    <creationDate>April 2013</creationDate>
+    <author>Steven Palmer</author>
+    <authorEmail>support@coalaweb.com</authorEmail>
+    <authorUrl>coalaweb.com</authorUrl>
+    <copyright>Copyright (c) 2013 Steven Palmer All rights reserved.</copyright>
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <description>
+        <![CDATA[
+            <h1>CoalaWeb Traffic hu-HU</h1>
+            <p>This is the hu-HU language pack for the CoalaWeb Traffic extension it includes the language files for all of the associated parts of the system.</p>
+        ]]>
+    </description>
+    <fileset>
+        <!-- Admin component language folder -->
+        <files folder="admin/hu-HU" target="administrator/language/hu-HU">
+            <filename>hu-HU.com_coalawebtraffic.ini</filename>
+            <filename>hu-HU.com_coalawebtraffic.sys.ini</filename>
+        </files>
+        <!-- Module language files -->
+        <files folder="modules/hu-HU" target="language/hu-HU">
+            <filename>hu-HU.mod_coalawebtraffic.ini</filename>
+            <filename>hu-HU.mod_coalawebtraffic.sys.ini</filename>
+        </files>
+        <!-- Count Plugin language files -->
+        <files folder="plugins/system/hu-HU" target="administrator/language/hu-HU">
+            <filename>hu-HU.plg_system_cwtrafficcount.ini</filename>
+            <filename>hu-HU.plg_system_cwtrafficcount.sys.ini</filename>
+            <filename>hu-HU.plg_system_cwtrafficclean.ini</filename>
+            <filename>hu-HU.plg_system_cwtrafficclean.sys.ini</filename>
+        </files>
+        <!-- Language pack language files -->
+        <files folder="language/hu-HU" target="language/hu-HU">
+            <filename>hu-HU.files_cwtraffic_langpkg_huhu.sys.ini</filename>
+        </files>
+    </fileset>
+</extension>

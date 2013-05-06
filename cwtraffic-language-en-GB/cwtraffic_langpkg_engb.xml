@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="file" version="2.5.0" method="upgrade">
-      <name>FILES_CWTRAFFIC_LANGPKG_ENGB</name>
+      <name>CoalaWeb Traffic en-GB</name>
       <version>0.1.5</version>
       <creationDate>April 2013</creationDate>
       <author>Steven Palmer</author>
@@ -8,7 +8,12 @@
       <authorUrl>coalaweb.com</authorUrl>
       <copyright>Copyright (c) 2013 Steven Palmer All rights reserved.</copyright>
       <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
-      <description>FILES_CWTRAFFIC_LANGPKG_ENGB_DESC</description>
+    <description>
+        <![CDATA[
+            <h1>CoalaWeb Traffic en-GB</h1>
+            <p>This is the en-GB language pack for the CoalaWeb Traffic extension it includes the language files for all of the associated parts of the system.</p>
+        ]]>
+    </description>
       <fileset>
           <!-- Admin component language folder -->
           <files folder="admin/en-GB" target="administrator/language/en-GB">
